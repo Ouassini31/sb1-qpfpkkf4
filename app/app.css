@@ -1,0 +1,27 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+Page {
+  background-color: white;
+}
+
+ActionBar {
+  background-color: #0d9488;
+  color: white;
+}
+
+Button.-primary {
+  background-color: #0d9488;
+  color: white;
+  font-weight: bold;
+  border-radius: 8;
+}
+
+Button.-outline {
+  background-color: transparent;
+  color: #0d9488;
+  border-width: 1;
+  border-color: #0d9488;
+  font-weight: bold;
+  border-radius: 8;
+}
